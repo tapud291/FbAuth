@@ -1,0 +1,18 @@
+﻿@model FbAuth.Models.GoogleProfile
+
+
+@{
+    ViewBag.Title = "GoogleLoginCallback";
+}
+
+<h2>GoogleLoginCallback</h2>
+
+<ol>
+    <li>GID : @Model.Id</li>
+
+    <li>Name : @Model.Name</li>
+    <li>Email : @Model.Email</li>
+    <li>Verified : @Model.Verified_Email</li>
+    <li>Locale : @Model.Locale</li>
+    <li>Picture : @Model.Picture</li>
+</ol>
